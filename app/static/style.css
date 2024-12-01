@@ -1,0 +1,173 @@
+/* Загальні стилі для сторінки */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Стилі для форми пошуку */
+.search-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.search-form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 14px;
+}
+
+.search-form button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    font-size: 14px;
+}
+
+.search-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Стилі для форми додавання завдання */
+.add-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.add-form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 14px;
+}
+
+.add-form button {
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    font-size: 14px;
+}
+
+.add-form button:hover {
+    background-color: #218838;
+}
+
+/* Стилі для списку завдань */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Кнопка редагування */
+li a.edit-btn {
+    background-color: #ffc107;
+    color: #333;
+    margin-right: 5px;
+}
+
+li a.edit-btn:hover {
+    background-color: #e0a800;
+}
+
+/* Кнопка видалення */
+li a.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+li a.delete-btn:hover {
+    background-color: #c82333;
+}
+
+/* Стилі для сторінки редагування */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Кнопка скасування */
+a.cancel-btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #6c757d;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+a.cancel-btn:hover {
+    background-color: #5a6268;
+}
